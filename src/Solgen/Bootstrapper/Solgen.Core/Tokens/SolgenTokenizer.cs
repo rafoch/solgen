@@ -3,26 +3,27 @@ using Solgen.Shared.Abstractions.Tokens;
 
 namespace Solgen.Core.Tokens;
 
-public class SolgenTokenizer : ITokenizer
+public class SolgenTokenizer
 {
     private readonly List<ITokenizer> _tokenizers = new()
     {
-        new BaseTokenizer(),
-        new CSharpTokenizer()
+        new CSharpTokenizer(),
     };
 
-    public IEnumerable<Token> GetTokens(string uml)
+    public IEnumerable<TokenResult> GetTokens(string uml)
     {
-        var umlWords = word.Split(' ');
+        var umlWords = uml.Replace(System.Environment.NewLine, String.Empty).Split(' ');
         var depth = 1;
-        foreach (var tokenizer in _tokenizers)
+        var tokens = new List<TokenResult>();
+        foreach (var word in umlWords)
         {
-            foreach (var word in umlWords)
+            foreach (var tokenizer in _tokenizers)
             {
-                tokenizer.GetTokens(word);
+                var result = tokenizer.GetTokens(word, depth);
+                tokens.AddRange(result);
             }
         }
 
-        return new List<Token>();
+        return tokens.Where(x => x.Token != null);
     }
 }

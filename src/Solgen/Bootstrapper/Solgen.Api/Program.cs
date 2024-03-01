@@ -1,13 +1,14 @@
 using Solgen.Core.Parser;
+using Solgen.Core.Tokens;
 
 var exampleStructure = """
                        sln SolutionName {
                            folder DummyFolder {
-                               project ProjectName {
+                               csharp ProjectName {
                        
                                }
                        
-                               project SecondProject {
+                               csharp SecondProject {
                        
                                 }
                            }
@@ -38,13 +39,13 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 var parser = new SolgenParser();
-
-app.MapGet("/", () =>
+var tokenizer = new SolgenTokenizer();
+app.MapGet("/tokens", () =>
     {
-        parser.Parse(exampleStructure);
-        return Results.Ok();
+        var tokens = tokenizer.GetTokens(exampleStructure);
+        return Results.Ok(tokens);
     })
-    .WithName("GetWeatherForecast")
+    .WithName("Tokens")
     .WithOpenApi();
 
 app.Run();

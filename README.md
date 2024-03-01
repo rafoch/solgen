@@ -41,15 +41,15 @@ Open source tool for creating, building and store project structure via diagrams
 ```
 sln SolutionName {
     folder DummyFolder {
-        project ProjectName {
+        csharp ProjectName {
 
         }
 
-        project SecondProject {
+        csharp SecondProject {
 
          }
     }
-    project ExampleProject {
+    csharp ExampleProject {
 
     }
 }

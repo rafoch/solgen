@@ -1,6 +1,6 @@
 
 ### Test exemple endpoint
-GET {{uri}}
+GET {{uri}}tokens
 Accept: application/json
 
 ###
