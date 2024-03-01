@@ -14,7 +14,7 @@ var exampleStructure = """
                            }
                            project ExampleProject {
                        
-                           }
+                           } 
                        }
                        """;
 
@@ -40,12 +40,30 @@ app.UseHttpsRedirection();
 
 var parser = new SolgenParser();
 var tokenizer = new SolgenTokenizer();
+
+app.MapGet("/available-tokens", () =>
+    {
+        var tokens = tokenizer.GetAllAvailableTokens();
+        return Results.Ok(tokens);
+    })
+    .WithName("Available-Tokens")
+    .WithOpenApi();
+
 app.MapGet("/tokens", () =>
     {
         var tokens = tokenizer.GetTokens(exampleStructure);
         return Results.Ok(tokens);
     })
     .WithName("Tokens")
+    .WithOpenApi();
+
+app.MapGet("/parser", () =>
+    {
+        var tokens = tokenizer.GetTokens(exampleStructure);
+        var @object = parser.Parse(tokens.ToList());
+        return Results.Ok(@object);
+    })
+    .WithName("Parser")
     .WithOpenApi();
 
 app.Run();

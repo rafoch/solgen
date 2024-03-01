@@ -2,11 +2,6 @@
 
 namespace Solgen.Shared.Abstractions.Tokens;
 
-public abstract class Token
-{
-   public abstract string Value { get; }
-}
-
 public abstract class TokenizerBase
 {
     private const string OpenBracket = "{";

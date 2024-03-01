@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using Solgen.Modules.CSharp.Parser;
 using Solgen.Shared.Abstractions.Parser;
+using Solgen.Shared.Abstractions.Tokens;
 
 namespace Solgen.Core.Parser;
 
@@ -12,11 +13,9 @@ public class SolgenParser : IParser
         _parsers = new List<IParser>(new []{ new CSharpParser() });
     }
     
-    public void Parse(string uml)
+    public object Parse(IList<TokenResult> tokens)
     {
-        foreach (var parser in _parsers)
-        {
-            parser.Parse(uml);
-        }
+
+        return new string("");
     }
 }
