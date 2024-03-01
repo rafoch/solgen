@@ -84,4 +84,4 @@ https://structurizr.com/ <br/>
 https://eraser.io/
 
 ## Last but not least
-Project is created for **100commit** challenge by https://devmentors.io/
+Project is created for **100commit** challenge by https://devmentors.io/ -> https://100commitow.pl/
