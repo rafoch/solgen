@@ -21,6 +21,11 @@ public class SolgenTokenizer
             foreach (var tokenizer in _tokenizers)
             {
                 var result = tokenizer.GetTokens(word, ref depth, ref tokenIndex);
+
+                if (result.Any(x => x.Token == null))
+                {
+                    continue;
+                }
                 
                 tokens.AddRange(result);
                 

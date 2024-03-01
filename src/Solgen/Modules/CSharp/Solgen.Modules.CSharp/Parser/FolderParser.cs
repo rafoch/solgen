@@ -4,11 +4,10 @@ using Solgen.Shared.Abstractions.Tokens;
 
 namespace Solgen.Modules.CSharp.Parser;
 
-public class CSharpParser : IParser
+public class FolderParser : IParser
 {
-    public Token OpenSectionToken => new CSharpTokens.SlnToken();
+    public Token OpenSectionToken => new FolderToken();
     public Token CloseSectionToken => new BaseTokenizer.CloseBracket();
-
     public object Parse(IList<TokenResult> tokens)
     {
         var solution = tokens
@@ -30,9 +29,7 @@ public class CSharpParser : IParser
         var tokensToParse = tokens
             .Where(x => x.TokenIndex >= solution.TokenIndex && x.TokenIndex <= findCloseToken.TokenIndex)
             .ToList();
-        
-        
-        
+
         return tokensToParse;
     }
 }

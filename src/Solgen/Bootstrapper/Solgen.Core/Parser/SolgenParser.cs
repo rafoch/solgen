@@ -10,7 +10,7 @@ public class SolgenParser : IParser
     private readonly IReadOnlyCollection<IParser> _parsers;
     public SolgenParser()
     {
-        _parsers = new List<IParser>(new []{ new CSharpParser() });
+        _parsers = new List<IParser>(new []{ new SlnParser() });
     }
 
     public Token OpenSectionToken { get; } //TODO Remove for futher readability

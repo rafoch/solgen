@@ -2,28 +2,8 @@
 
 namespace Solgen.Modules.CSharp.Tokens;
 
-public class CSharpTokens 
+internal class CSharpTokens 
 {
-    
-    class ProjectToken : TokenWithIdentifier
-    {
-        public override string Value => "csharp";
-        public override string Type => nameof(ProjectToken);
-    }
-
-    public class SlnToken : TokenWithIdentifier
-    {
-        public override string Value => "sln";
-        public override string Type => nameof(SlnToken);
-    }
-
-    class FolderToken : TokenWithIdentifier
-    {
-        public override string Value => "folder";
-        public override string Type => nameof(FolderToken);
-    }
-
-
     public IEnumerable<Token> GetTokens()
     {
         yield return new ProjectToken();

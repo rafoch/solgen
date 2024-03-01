@@ -19,7 +19,6 @@ var exampleStructure = """
                        """;
 
 var exampleStructure2 = """
-                       git {
                        sln SolutionName {
                            folder DummyFolder {
                                csharp ProjectName {
@@ -33,8 +32,12 @@ var exampleStructure2 = """
                            project ExampleProject {
                        
                            }
+                           
+                           folder NewFolder {
+                           
+                           } 
                        } 
-                       }
+                       
                        """;
 
 
@@ -70,7 +73,7 @@ app.MapGet("/available-tokens", () =>
 
 app.MapGet("/tokens", () =>
     {
-        var tokens = tokenizer.GetTokens(exampleStructure);
+        var tokens = tokenizer.GetTokens(exampleStructure2);
         return Results.Ok(tokens);
     })
     .WithName("Tokens")
@@ -78,7 +81,7 @@ app.MapGet("/tokens", () =>
 
 app.MapGet("/parser", () =>
     {
-        var tokens = tokenizer.GetTokens(exampleStructure);
+        var tokens = tokenizer.GetTokens(exampleStructure2);
         var @object = parser.Parse(tokens.ToList());
         return Results.Ok(@object);
     })
