@@ -11,6 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{1CE8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solgen.Shared.Abstractions", "Shared\Solgen.Shared.Abstractions\Solgen.Shared.Abstractions.csproj", "{B7643FBE-7160-45A9-91C2-9C62F75C1261}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{01E50F39-2087-4B58-8CB2-B8377EF45FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solgen.Modules.CSharp", "Modules\CSharp\Solgen.Modules.CSharp\Solgen.Modules.CSharp.csproj", "{5A5B1B91-927D-4875-83FB-E859CCF2B1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solgen.Core", "Bootstrapper\Solgen.Core\Solgen.Core.csproj", "{0CB6F49D-ADBA-490E-B0FD-19FFCEDBB270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solgen.Api", "Bootstrapper\Solgen.Api\Solgen.Api.csproj", "{15F0851F-252B-4B2B-889E-F3A83B760915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +29,27 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B7643FBE-7160-45A9-91C2-9C62F75C1261} = {B1BBB84E-D706-46C6-A3DC-BCC60F0FC406}
+		{01E50F39-2087-4B58-8CB2-B8377EF45FD1} = {1CE856D2-F9B6-4F8F-8EA0-C81BE683EF0E}
+		{5A5B1B91-927D-4875-83FB-E859CCF2B1A3} = {01E50F39-2087-4B58-8CB2-B8377EF45FD1}
+		{0CB6F49D-ADBA-490E-B0FD-19FFCEDBB270} = {4AE2B68D-85FA-481B-87F3-BCC9B5B99513}
+		{15F0851F-252B-4B2B-889E-F3A83B760915} = {4AE2B68D-85FA-481B-87F3-BCC9B5B99513}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B7643FBE-7160-45A9-91C2-9C62F75C1261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7643FBE-7160-45A9-91C2-9C62F75C1261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7643FBE-7160-45A9-91C2-9C62F75C1261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7643FBE-7160-45A9-91C2-9C62F75C1261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5B1B91-927D-4875-83FB-E859CCF2B1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5B1B91-927D-4875-83FB-E859CCF2B1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5B1B91-927D-4875-83FB-E859CCF2B1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5B1B91-927D-4875-83FB-E859CCF2B1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB6F49D-ADBA-490E-B0FD-19FFCEDBB270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB6F49D-ADBA-490E-B0FD-19FFCEDBB270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB6F49D-ADBA-490E-B0FD-19FFCEDBB270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB6F49D-ADBA-490E-B0FD-19FFCEDBB270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F0851F-252B-4B2B-889E-F3A83B760915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F0851F-252B-4B2B-889E-F3A83B760915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F0851F-252B-4B2B-889E-F3A83B760915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F0851F-252B-4B2B-889E-F3A83B760915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

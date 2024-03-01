@@ -1,0 +1,6 @@
+
+### Test exemple endpoint
+GET {{uri}}
+Accept: application/json
+
+###
