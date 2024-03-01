@@ -12,9 +12,17 @@ public class SolgenParser : IParser
     {
         _parsers = new List<IParser>(new []{ new CSharpParser() });
     }
-    
+
+    public Token OpenSectionToken { get; } //TODO Remove for futher readability
+    public Token CloseSectionToken { get; } //TODO Remove for futher readability
+
     public object Parse(IList<TokenResult> tokens)
     {
+        foreach (var parser in _parsers)
+        {
+            var o = parser.Parse(tokens);
+            return o;
+        }
 
         return new string("");
     }

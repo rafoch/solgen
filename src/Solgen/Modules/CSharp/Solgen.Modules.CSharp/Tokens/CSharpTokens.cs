@@ -11,7 +11,7 @@ public class CSharpTokens
         public override string Type => nameof(ProjectToken);
     }
 
-    class SlnToken : TokenWithIdentifier
+    public class SlnToken : TokenWithIdentifier
     {
         public override string Value => "sln";
         public override string Type => nameof(SlnToken);

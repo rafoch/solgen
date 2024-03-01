@@ -18,6 +18,25 @@ var exampleStructure = """
                        }
                        """;
 
+var exampleStructure2 = """
+                       git {
+                       sln SolutionName {
+                           folder DummyFolder {
+                               csharp ProjectName {
+                       
+                               }
+                       
+                               csharp SecondProject {
+                       
+                                }
+                           }
+                           project ExampleProject {
+                       
+                           }
+                       } 
+                       }
+                       """;
+
 
 
 var builder = WebApplication.CreateBuilder(args);

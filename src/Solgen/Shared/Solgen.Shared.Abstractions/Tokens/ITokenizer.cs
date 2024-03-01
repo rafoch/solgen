@@ -22,7 +22,7 @@ public abstract class BaseTokenizer : ITokenizer
         public override string Type => nameof(OpenBracket);
     }
     
-    class CloseBracket : TokenWithoutIdentifier
+    public class CloseBracket : TokenWithoutIdentifier
     {
         public override string Value => "}";
         public override string Type => nameof(CloseBracket);
