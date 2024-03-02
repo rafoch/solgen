@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
  
+html, body{
+    height: 100%;
+    background: rgb(2,0,36);
+    overflow: hidden;
+}
+
+.background-circle{
+    height: 300%;
+    width: 100%;
+    position: absolute;
+    top: -190%;
+    z-index: 10;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(15,102,100, 1) 5%, rgba(2,0,36,1) 80%);
+    
+}
+
+.content{
+    z-index: 50;
+    display: block;
+    position: relative;
+    color: #fff;
+}
