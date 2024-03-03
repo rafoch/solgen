@@ -13,8 +13,8 @@ export default function Navbar() {
             <div>Navigation</div>
             <div
                 className={"rounded-3xl h-12 text-white flex items-center gap-4  bg-[#0F6664] overflow-hidden font-bold pl-2 shadow-[#181c42] shadow-ultra"}>
-                <span>100 commitów</span>
-                <div className={"rounded-l-3xl bg-[#2ff7bc90] h-full pl-6 pr-2 flex items-center"}>devmentors.pl</div>
+                <span className={"pl-4"}>100 commitów</span>
+                <div className={"rounded-l-3xl bg-[#2ff7bc90] h-full pl-12 pr-12 flex items-center"}>devmentors.pl</div>
             </div>
         </div>)
 }

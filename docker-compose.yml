@@ -6,4 +6,17 @@ services:
     build: src/WebUi
     ports:
       - "3000:3000"
-      # TODO
+    networks:
+      - app
+    environment:
+      API_URL: http://api:5000
+
+  api:
+    build: src/Solgen
+    ports:
+      - "5000:5000"
+    networks:
+      - app
+
+networks:
+  app:

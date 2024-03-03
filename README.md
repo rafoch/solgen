@@ -19,7 +19,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Linting errors or mispells in diagram structure
 - [ ] Downloading/Exporting diagram to .NET Solution structure
 - [ ] Generating UI Diagrams to visualize diagram state
-- [ ] Docker installation
+- [x] Docker installation
 
 ### Nice to have
 - [ ] Implement AI to convert text to diagram structure
@@ -32,6 +32,11 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Add Persistency layer for application
 
 ## Docker compose
+
+1. Download Repo
+2. Execute command `docker-compose up -d`
+
+### Docker config 
 
 <!-- TODO -->
 
