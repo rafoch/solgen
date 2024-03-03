@@ -1,0 +1,18 @@
+﻿sln SolutionName {
+   folder DummyFolder {
+       csharp ProjectName {
+
+       }
+
+       csharp SecondProject {
+
+        }
+   }
+   csharp ExampleProject {
+
+   }
+   
+   folder NewFolder {
+   
+   } 
+} 

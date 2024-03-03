@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "css-loader": "^6.10.0",
+    "express": "^4.18.3",
     "lucide-react": "^0.344.0",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-monaco-editor": "^0.55.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
