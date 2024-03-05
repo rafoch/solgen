@@ -30,14 +30,19 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Linking via github and **track** the changes between diagram and repo
 - [ ] Add Specifications to project for cloud usage e.g. specify app as app-service/azure-function and create terraform deployment file
 - [ ] Add Persistency layer for application
+- [ ] docker hub publish
 
 ## Docker compose
 
 1. Download Repo
 2. Execute command `docker-compose up -d`
+3. Open browser and go to: http://localhost:3000/
+
 
 ### Docker config 
 
+#### Port
+If any of the port of an application is already used, you can easly change it in `docker-compose` file
 <!-- TODO -->
 
 ---
@@ -82,6 +87,17 @@ It all should be generated as zip file
 ## Documentation
 
 <!-- TODO -->
+
+### Core
+
+Provides a whole services to do the job
+
+#### Modules
+Modules are core of the system
+
+
+##### C# module
+
 ---
 ## Inspiration
 
