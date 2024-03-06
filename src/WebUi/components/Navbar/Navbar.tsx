@@ -10,7 +10,6 @@ export default function Navbar() {
                     <span className={"text-2xl uppercase"}>SOLGEN</span>
                 </div>
             </div>
-            <div>Navigation</div>
             <div
                 className={"rounded-3xl h-12 text-white flex items-center gap-4  bg-[#0F6664] overflow-hidden font-bold pl-2 shadow-[#181c42] shadow-ultra"}>
                 <span className={"pl-4 text-blue-600"}>100 commitów</span>
@@ -18,7 +17,3 @@ export default function Navbar() {
             </div>
         </div>)
 }
-
-// shadow-[#228c7c]
-
-// bg-[#2EB292]

@@ -87,7 +87,7 @@ export default function TextEditor(){
             whitespace: [
                 [/[ \t\r\n]+/, 'white']
             ],
-           
+           // TODO add more symbols to monaco editor
         }
     })
 

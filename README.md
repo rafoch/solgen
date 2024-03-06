@@ -43,7 +43,6 @@ Open source tool for creating, building and store project structure via diagrams
 
 #### Port
 If any of the port of an application is already used, you can easly change it in `docker-compose` file
-<!-- TODO -->
 
 ---
 ## Examples
@@ -96,7 +95,8 @@ Provides a whole services to do the job
 Modules are core of the system
 
 
-##### C# module
+##### C# module (CSharp Module)
+Module that provides needed members of parsing and preparing solution to be generated and exported
 
 ---
 ## Inspiration
