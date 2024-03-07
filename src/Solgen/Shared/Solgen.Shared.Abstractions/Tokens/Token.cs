@@ -2,6 +2,7 @@
 
 public abstract class Token
 {
+   // TODO Replace this with regex pattern
    public abstract string Value { get; }
    public abstract bool HasIdentifier { get; }
    
@@ -14,6 +15,7 @@ public class IdentifierToken : Token
    {
       Value = value;
    }
+   
    public override string Value { get; }
    public override bool HasIdentifier => false;
    public override string Type => nameof(IdentifierToken);

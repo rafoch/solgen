@@ -73,15 +73,15 @@ app.MapGet("/available-tokens", () =>
     .WithName("Available-Tokens")
     .WithOpenApi();
 
-app.MapGet("/tokens", () =>
+app.MapPost("/tokenize", (object request) =>
     {
         var tokens = tokenizer.GetTokens(exampleStructure2);
         return Results.Ok(tokens);
     })
-    .WithName("Tokens")
+    .WithName("Tokenize")
     .WithOpenApi();
 
-app.MapGet("/parser", () =>
+app.MapPost("/parse", (object request) =>
     {
         var tokens = tokenizer.GetTokens(exampleStructure2);
         var @object = parser.Parse(tokens.ToList());
@@ -89,6 +89,11 @@ app.MapGet("/parser", () =>
     })
     .WithName("Parser")
     .WithOpenApi();
+
+app.MapPost("/download-zip", () =>
+{
+    return Results.Ok("empty response -> will be zip");
+});
 
 app.Run();
 
