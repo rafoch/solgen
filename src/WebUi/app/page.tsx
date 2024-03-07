@@ -11,6 +11,5 @@ export default async function Page(){
     <div className={"pt-4 flex items-center justify-between w-full"}>
         <div className={"w-full"}>Diagram</div>
         <div className={"w-full"}><TextEditor/></div>
-        <div>{JSON.stringify(newVar)}</div>
     </div>)
 }
