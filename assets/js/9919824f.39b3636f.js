@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2339],{6009:s=>{s.exports=JSON.parse('{"label":"facebook","permalink":"/solgen/blog/tags/facebook","allTagsPath":"/solgen/blog/tags","count":1,"unlisted":false}')}}]);

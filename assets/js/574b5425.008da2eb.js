@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2845],{339:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/solgen/blog/tags/hola","allTagsPath":"/solgen/blog/tags","count":1,"unlisted":false}')}}]);
