@@ -1,6 +1,16 @@
-﻿namespace Solgen.Modules.CSharp.Generators;
+﻿using Solgen.Shared.Abstractions.Generator;
 
-public class SolutionGenerator
+namespace Solgen.Modules.CSharp.Generators;
+
+public class SolutionGenerator : IGenerator
 {
-    
+    public void Generate()
+    {
+        
+    }
+
+    public Task GenerateAsync()
+    {
+        return Task.CompletedTask;
+    }
 }
