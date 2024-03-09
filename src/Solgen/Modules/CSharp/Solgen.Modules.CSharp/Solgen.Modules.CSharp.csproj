@@ -10,8 +10,4 @@
       <ProjectReference Include="..\..\..\Shared\Solgen.Shared.Abstractions\Solgen.Shared.Abstractions.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Builder\" />
-    </ItemGroup>
-
 </Project>
