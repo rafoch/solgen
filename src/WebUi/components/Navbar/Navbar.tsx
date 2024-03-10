@@ -1,4 +1,5 @@
 ﻿import {Card} from "@/components/ui/card";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -10,10 +11,15 @@ export default function Navbar() {
                     <span className={"text-2xl uppercase"}>SOLGEN</span>
                 </div>
             </div>
+            <div className={"flex gap-12"}>
+                <Link href={"/"} className={"uppercase font-semibold underline underline-offset-4"}>Try it out</Link>
+                <Link href={"/about"} className={"uppercase font-semibold underline underline-offset-4"}>About</Link>
+            </div>
+            
             <div
                 className={"rounded-3xl h-12 text-white flex items-center gap-4  bg-[#0F6664] overflow-hidden font-bold pl-2 shadow-[#181c42] shadow-ultra"}>
-                <span className={"pl-4 text-blue-600"}>100 commitów</span>
-                <div className={"rounded-l-3xl bg-[#2ff7bc90] h-full pl-12 pr-12 flex items-center underline"}>devmentors.pl</div>
+                <Link  href="https://100commitow.pl" target={"_blank"} className={"pl-4 text-blue-600"}>100 commitów</Link>
+                <Link href={"https://devmentors.io"} target={"_blank"} className={"rounded-l-3xl bg-[#2ff7bc90] h-full pl-12 pr-12 flex items-center underline"}>devmentors.io</Link>
             </div>
         </div>)
 }

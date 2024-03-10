@@ -29,7 +29,7 @@ export default function RootLayout({
           <div className={"flex gap-x-3 h-full"}>
             {/*<Sidebar/>*/}
             
-            <div className={"h-full flex-1"}>
+            <div className={"h-full flex-1 flex flex-col gap-8"}>
               <Navbar/>
               {children}
               

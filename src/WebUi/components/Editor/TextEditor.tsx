@@ -45,7 +45,7 @@ export default function TextEditor(){
             
         ],
         colors: {
-            'editor.background': '#0F666405',
+            'editor.background': '#0F666401',
             'editor.foreground': '#aaaabc',
             
         }
@@ -101,7 +101,7 @@ export default function TextEditor(){
             <div id={"container"} style={{height: '100%'}}>
                 <Editor
                     theme={"slg"}
-                    height={"70vh"} language={"slg"} value={value} onChange={(e) => {
+                    height={"86vh"} language={"slg"} value={value} onChange={(e) => {
                     const val = e ?? ""; 
                     setValue(val);
                 }} 
