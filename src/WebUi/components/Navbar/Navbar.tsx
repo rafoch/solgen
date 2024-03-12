@@ -21,7 +21,7 @@ export default function Navbar() {
             {/* EXTERNAL LINKS SECTION */}
             <div
                 className={"rounded-3xl h-12 text-white flex items-center gap-4  bg-[#0F6664] overflow-hidden font-bold pl-2 shadow-[#181c42] shadow-ultra"}>
-                <Link  href="https://100commitow.pl" target={"_blank"} className={"pl-4 text-blue-600"}>100 commitów</Link>
+                <Link  href="https://100commitow.pl" target={"_blank"} className={"pl-4 text-white underline"}>100 commitów</Link>
                 <Link href="https://devmentors.io" target={"_blank"} className={"rounded-l-3xl bg-[#2ff7bc90] h-full pl-12 pr-12 flex items-center underline"}>devmentors.io</Link>
             </div>
         </div>)
