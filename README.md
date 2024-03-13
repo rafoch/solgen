@@ -16,12 +16,12 @@ Open source tool for creating, building and store project structure via diagrams
 ### Must Have
 
 - [ ] Writing project structure by diagram as code approach
-- [ ] Linting errors or mispells in diagram structure
 - [ ] Downloading/Exporting diagram to .NET Solution structure
 - [ ] Generating UI Diagrams to visualize diagram state
 - [x] Docker installation
 
 ### Nice to have
+- [ ] Linting errors or mispells in diagram structure
 - [ ] Implement AI to convert text to diagram structure
 - [ ] Creating templates for further usage
 - [ ] Having own file extension
@@ -85,6 +85,9 @@ It all should be generated as zip file
 ---
 ## Documentation
 
+#### Tokenizer
+<!-- TODO -->
+#### Parser
 <!-- TODO -->
 
 ### Core
@@ -96,7 +99,7 @@ Modules are core of the system
 
 
 ##### C# module (CSharp Module)
-Module that provides needed members of parsing and preparing solution to be generated and exported
+Module that provides needed members of parsing and preparing solution to be generated and exported as zip solution
 
 ---
 ## Inspiration
