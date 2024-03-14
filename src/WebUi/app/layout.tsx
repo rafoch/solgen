@@ -27,7 +27,7 @@ export default function RootLayout({
       <div className={"background-circle"}></div>
         <main className={"content h-full"}>
           <div className={"flex gap-x-3 h-full"}>
-            <div className={"h-full flex-1 flex flex-col gap-8"}>
+            <div className={"h-full flex-1 flex flex-col gap-6"}>
               <Navbar/>
               {children}
             </div>
