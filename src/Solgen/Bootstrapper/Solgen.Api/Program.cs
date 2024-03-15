@@ -18,30 +18,6 @@ var exampleStructure = """
                        }
                        """;
 
-var exampleStructure2 = """
-                       sln SolutionName {
-                           folder DummyFolder {
-                               csharp ProjectName {
-                       
-                               }
-                       
-                               csharp SecondProject {
-                       
-                                }
-                           }
-                           project ExampleProject {
-                       
-                           }
-                           
-                           folder NewFolder {
-                           
-                           } 
-                       } 
-                       
-                       """;
-
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -73,17 +49,17 @@ app.MapGet("/available-tokens", () =>
     .WithName("Available-Tokens")
     .WithOpenApi();
 
-app.MapPost("/tokenize", (object request) =>
+app.MapPost("/tokenize", (TextEditor request) =>
     {
-        var tokens = tokenizer.GetTokens(exampleStructure2);
+        var tokens = tokenizer.GetTokens(request.Data);
         return Results.Ok(tokens);
     })
     .WithName("Tokenize")
     .WithOpenApi();
 
-app.MapPost("/parse", (object request) =>
+app.MapPost("/parse", (TextEditor request) =>
     {
-        var tokens = tokenizer.GetTokens(exampleStructure2);
+        var tokens = tokenizer.GetTokens(request.Data);
         var @object = parser.Parse(tokens.ToList());
         return Results.Ok(@object);
     })
@@ -98,3 +74,4 @@ app.MapPost("/download-zip", () =>
 app.Run();
 
 
+internal record TextEditor(string Data);
