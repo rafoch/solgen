@@ -1,3 +1,4 @@
+using Solgen.Api.Services;
 using Solgen.Core.Parser;
 using Solgen.Core.Tokens;
 
@@ -25,6 +26,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
+
+builder.Services.AddSingleton<TokenizeService>();
+
 var app = builder.Build();
 
 app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
