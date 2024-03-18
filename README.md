@@ -38,6 +38,8 @@ Open source tool for creating, building and store project structure via diagrams
 2. Execute command `docker-compose up -d`
 3. Open browser and go to: http://localhost:3000/
 
+[//]: # (4. Options )
+
 
 ### Docker config 
 
@@ -80,7 +82,7 @@ expected response should be:
 
 ```
 
-It all should be generated as zip file 
+There may be a possibility for exporting such a structure as a zip file. 
 
 ---
 ## Documentation
@@ -101,6 +103,7 @@ Modules are core of the system
 ##### C# module (CSharp Module)
 Module that provides needed members of parsing and preparing solution to be generated and exported as zip solution
 
+[//]: # (Docker supp)
 ---
 ## Inspiration
 
