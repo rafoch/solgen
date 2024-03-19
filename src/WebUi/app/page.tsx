@@ -1,9 +1,8 @@
 ﻿import TextEditor from "@/components/Editor/TextEditor";
-
 export const runtime = "edge";
-
 import {getTokens} from "@/api/getTokens";
 import {DiagramDrawer} from "@/components/DiagramDrawer/DiagramDrawer";
+
 export default async function Page(){
     
     const newVar = await getTokens();
