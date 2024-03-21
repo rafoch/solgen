@@ -2,7 +2,7 @@ version: '3.1'
 
 
 services:
-  ui:
+  webui:
     build: src/WebUi
     ports:
       - "3000:3000"
@@ -11,7 +11,7 @@ services:
     environment:
       API_URL: http://api:5000
 
-  api:
+  solgen-api:
     build: src/Solgen
     ports:
       - "5000:5000"
