@@ -90,6 +90,10 @@ There may be a possibility for exporting such a structure as a zip file.
 ## Documentation
 
 #### Tokenizer
+
+Tokenizer is a mechanism that gets your input and then translate it to a list of words/symbols are contained in the input. 
+
+**Important** : The tokens that are returned are the only one that are specified in code, ie. you need to define a token type to get this in return 
 <!-- TODO -->
 #### Parser
 <!-- TODO -->
