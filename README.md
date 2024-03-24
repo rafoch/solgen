@@ -97,6 +97,8 @@ Tokenizer is a mechanism that gets your input and then translate it to a list of
 <!-- TODO -->
 #### Parser
 <!-- TODO -->
+Translates the provided **Tokens** into proper language code structure according to language choose. 
+In first implementation where will be only C# Code supported
 
 ### Core
 
