@@ -44,6 +44,7 @@ Open source tool for creating, building and store project structure via diagrams
 
 
 ### Docker config 
+There is no config yet
 
 #### Port
 If any of the port of an application is already used, you can easly change it in `docker-compose` file
@@ -99,6 +100,10 @@ Tokenizer is a mechanism that gets your input and then translate it to a list of
 <!-- TODO -->
 Translates the provided **Tokens** into proper language code structure according to language choose. 
 In first implementation where will be only C# Code supported
+
+#### Linter 
+
+<!-- TODO -->
 
 ### Core
 
