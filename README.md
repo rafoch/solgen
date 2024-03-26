@@ -110,7 +110,7 @@ In first implementation where will be only C# Code supported
 Provides a whole services to do the job
 
 #### Modules
-Modules are core of the system
+Modules are core of the system, they provides implementation for various programming languages, each module contains proper mechanisms to parse input and deliver proper output
 
 
 ##### C# module (CSharp Module)
