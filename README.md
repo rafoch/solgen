@@ -90,6 +90,8 @@ There may be a possibility for exporting such a structure as a zip file.
 ---
 ## Documentation
 
+The documentation section that provides information about core functionalities of the application
+
 #### Tokenizer
 
 Tokenizer is a mechanism that gets your input and then translate it to a list of words/symbols are contained in the input. 
