@@ -16,8 +16,8 @@
     return (
     <div className="w-full container flex items-center flex-col justify-start gap-4">
         <section>About me as a developer. Hello, my name is <b>Rafał</b></section>
-        <section>For now I've got {totalYears} years of experience in .NET</section>
-        <section>Contact</section>
+        <section>For now I've got {totalYears} years of experience in .NET. I've also got a skills in NEXT.JS and JAVA</section>
+        <section>Contact me via email: rafal.ochotny95@gmail.com</section>
     </div>
     )
 }
