@@ -20,7 +20,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Generating UI Diagrams to visualize diagram state
 - [x] Docker installation
 - [] Site with code editor
-- [] Generic code for further languages implementation
+- [x] Generic code for further languages implementation
 
 ### Nice to have
 - [ ] Linting errors or mispells in diagram structure
@@ -39,6 +39,8 @@ Open source tool for creating, building and store project structure via diagrams
 1. Download Repo
 2. Execute command `docker-compose up -d`
 3. Open browser and go to: http://localhost:3000/
+
+if any error occured please contact via email
 
 [//]: # (4. Options )
 
