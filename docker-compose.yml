@@ -2,7 +2,7 @@ version: '3.1'
 
 
 services:
-  webui:
+  ui:
     build: src/WebUi
     ports:
       - "3000:3000"
@@ -11,12 +11,18 @@ services:
     environment:
       API_URL: http://api:5000
 
-  solgen-api:
+  api:
     build: src/Solgen
     ports:
       - "5000:5000"
     networks:
       - app
+  database:
+    image: postgres
+    networks:
+      - app
+    ports:
+      - "5432:5432"
 
 networks:
   app:
