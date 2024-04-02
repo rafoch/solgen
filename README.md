@@ -19,7 +19,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Downloading/Exporting diagram to .NET Solution structure
 - [ ] Generating UI Diagrams to visualize diagram state
 - [x] Docker installation
-- [] Site with code editor
+- [x] Site with code editor - only in basic mode
 - [x] Generic code for further languages implementation
 
 ### Nice to have
@@ -67,6 +67,27 @@ sln SolutionName {
     }
     csharp ExampleProject {
 
+    }
+}
+```
+
+or more complex
+
+```
+sln SolutionName {
+    folder DummyFolder {
+        csharp ProjectName {
+
+        }
+
+        csharp SecondProject {
+
+         }
+    }
+    folder NextDummyFolder {
+        csharp ExampleProject {
+
+        }
     }
 }
 ```
