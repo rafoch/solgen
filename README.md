@@ -15,21 +15,21 @@ Open source tool for creating, building and store project structure via diagrams
 
 ### Must Have
 
-- [ ] Writing project structure by diagram as code approach
+- [ ] Writing project structure by diagram as code approach - 50%
 - [ ] Downloading/Exporting diagram to .NET Solution structure
 - [ ] Generating UI Diagrams to visualize diagram state
 - [x] Docker installation
-- [x] Site with code editor - only in basic mode
+- [x] Site with code editor - **only in basic mode**
 - [x] Generic code for further languages implementation
 
 ### Nice to have
 - [ ] Linting errors or mispells in diagram structure
-- [ ] Implement AI to convert text to diagram structure
+- [ ] Implement **AI** to convert text to diagram structure
 - [ ] Creating templates for further usage
 - [ ] Having own file extension
-- [ ] Add Support for other languages than .net e.g. Rust/Go/Java
+- [ ] Add Support for other languages than **.net** e.g. Rust/Go/Java
 - [ ] Change from Project/Solution structure to monorepo that contains many subprojects
-- [ ] Linking via github and **track** the changes between diagram and repo
+- [ ] Linking via **github** and **track** the changes between diagram and repo
 - [ ] Add Specifications to project for cloud usage e.g. specify app as app-service/azure-function and create terraform deployment file
 - [ ] Add Persistency layer for application
 - [ ] docker hub publish
