@@ -2,7 +2,7 @@
 <!-- LINKS -->
 ![plot](./logo_192.png)
 ---
-Are you a Tech Lead or Software Architect in small or medium company? 
+Are you a Tech Lead or Software Architect in **small** or **medium** company? 
 
 Have you ever struggled to create new project for client and creating project structure from scratch, repeating the same actions every time ?
 
@@ -140,6 +140,9 @@ Modules are core of the system, they provides implementation for various program
 
 ##### C# module (CSharp Module)
 Module that provides needed members of parsing and preparing solution to be generated and exported as zip solution
+
+##### Rust Module
+Preparing for adding rust module documentation
 
 [//]: # (Docker supp)
 ---
