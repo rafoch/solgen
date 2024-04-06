@@ -48,6 +48,9 @@ if any error occured please contact via email
 ### Docker config 
 There is no config yet
 
+#### Database settings
+There's no config yet
+
 #### Port
 If any of the port of an application is already used, you can easly change it in `docker-compose` file
 
@@ -131,7 +134,6 @@ In first implementation where will be only C# Code supported
 <!-- TODO -->
 
 ### Core
-
 Provides a whole services to do the job
 
 #### Modules
@@ -144,7 +146,6 @@ Module that provides needed members of parsing and preparing solution to be gene
 ##### Rust Module
 Preparing for adding rust module documentation
 
-[//]: # (Docker supp)
 ---
 ## Inspiration
 
