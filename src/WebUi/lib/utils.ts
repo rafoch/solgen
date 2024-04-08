@@ -16,3 +16,7 @@ export function toDate(dateString: string){
 export function getModificationDateString(date: Date){
   return "Yesterday";
 }
+
+export function get(){
+  return "id"
+}
