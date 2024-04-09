@@ -17,7 +17,7 @@ Open source tool for creating, building and store project structure via diagrams
 
 - [ ] Writing project structure by diagram as code approach - 50%
 - [ ] Downloading/Exporting diagram to .NET Solution structure or/and Rust project
-- [ ] Generating UI Diagrams to visualize diagram state
+- [ ] Generating UI Diagrams to visualize diagram state - only in basic shape
 - [x] Docker installation
 - [x] Site with code editor - **only in basic mode**
 - [x] Generic code for further languages implementation
