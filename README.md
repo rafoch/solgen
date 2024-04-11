@@ -23,6 +23,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [x] Generic code for further languages implementation
 
 ### Nice to have
+- [ ] Preparing for new slnx format of c# solution
 - [ ] Linting errors or mispells in diagram structure
 - [ ] Implement **AI** to convert text to diagram structure
 - [ ] Creating templates for further usage
