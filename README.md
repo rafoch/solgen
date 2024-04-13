@@ -101,7 +101,7 @@ The above structure will provide the full .NET solution with corresponding struc
 expected response should be: 
 
 ```
-|- SoltuionName.sln
+|- SoltuionName.sln or slnx
 |--- Dummy folder 
 |----- ProjectName 
 |-------- ProjectName.csproj
