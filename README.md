@@ -144,6 +144,9 @@ Modules are core of the system, they provides implementation for various program
 ##### C# module (CSharp Module)
 Module that provides needed members of parsing and preparing solution to be generated and exported as zip solution
 
+###### SLNX 
+<!-- New Sln format  -->
+
 ##### Rust Module
 Preparing for adding rust module documentation
 
