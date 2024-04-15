@@ -150,6 +150,8 @@ Module that provides needed members of parsing and preparing solution to be gene
 ##### Rust Module
 Preparing for adding rust module documentation
 
+###### Cargo
+
 ---
 ## Inspiration
 
@@ -157,4 +159,4 @@ https://structurizr.com/ <br/>
 https://eraser.io/
 
 ## Last but not least
-Project is created for **100commit** challenge by https://devmentors.io/ -> https://100commitow.pl/
+Project is created for **100commit** competition by https://devmentors.io/ -> https://100commitow.pl/
