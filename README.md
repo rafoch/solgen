@@ -145,7 +145,7 @@ Modules are core of the system, they provides implementation for various program
 Module that provides needed members of parsing and preparing solution to be generated and exported as zip solution
 
 ###### SLNX 
-<!-- New Sln format  -->
+<!-- New Sln format  --> Mark this as a extra feature, not needed for production
 The new format is constructed via XML file that contains tree structure of an solution folders and exacutable projects
 
 The main benefits is that theres no need to provide/save/store an "unique" Solution item type id represented as a guid into a file. All is resolved via csproj or element basis.
