@@ -47,12 +47,15 @@ if any error occured please contact via email
 
 
 ### Docker config 
+
 There is no config yet
 
 #### Database settings
+
 There's no config yet
 
 #### Port
+
 If any of the port of an application is already used, you can easly change it in `docker-compose` file
 
 ---
