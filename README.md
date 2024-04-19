@@ -43,8 +43,6 @@ Open source tool for creating, building and store project structure via diagrams
 
 if any error occured please contact via email
 
-[//]: # (4. Options )
-
 
 ### Docker config 
 
@@ -155,8 +153,6 @@ The main benefits is that theres no need to provide/save/store an "unique" Solut
 
 ##### Rust Module
 Preparing for adding rust module documentation
-
-###### Cargo
 
 ---
 ## Inspiration
