@@ -7,6 +7,7 @@ Are you a Tech Lead or Software Architect in **small** or **medium** company?
 Have you ever struggled to create new project for client and creating project structure from scratch, repeating the same actions every time ?
 
 If yes then, here's come **SOLGEN** <br/>
+
 Open source tool for creating, building and store project structure via diagrams as code. Instead of right clicking in ide and creating new projects, or doing it via command line, write code and let solgen do that for you.
 
 ---
@@ -46,11 +47,11 @@ if any error occured please contact via email
 
 ### Docker config 
 
-There is no config yet
+There is no config yet.
 
 #### Database settings
 
-There's no config yet
+There's no config yet.
 
 #### Port
 
