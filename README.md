@@ -63,17 +63,10 @@ If any of the port of an application is already used, you can easly change it in
 ```
 sln SolutionName {
     folder DummyFolder {
-        csharp ProjectName {
-
-        }
-
-        csharp SecondProject {
-
-         }
+        csharp ProjectName {}
+        csharp SecondProject {}
     }
-    csharp ExampleProject {
-
-    }
+    csharp ExampleProject {}
 }
 ```
 
@@ -82,18 +75,12 @@ or more complex
 ```
 sln SolutionName {
     folder DummyFolder {
-        csharp ProjectName {
+        csharp ProjectName {}
 
-        }
-
-        csharp SecondProject {
-
-         }
+        csharp SecondProject {}
     }
     folder NextDummyFolder {
-        csharp ExampleProject {
-
-        }
+        csharp ExampleProject {}
     }
 }
 ```
