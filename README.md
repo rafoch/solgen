@@ -2,7 +2,7 @@
 <!-- LINKS -->
 ![plot](./logo_192.png)
 ---
-Are you a Tech Lead or Software Architect in **small** or **medium** company? 
+Are you a Tech Lead or Software Architect just like me in **small** or **medium** company? 
 
 Have you ever struggled to create new project for client and creating project structure from scratch, repeating the same actions every time ?
 
