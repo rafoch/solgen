@@ -12,7 +12,7 @@ Open source tool for creating, building and store project structure via diagrams
 
 ---
 
-<!-- ## Features -->
+## Features
 
 ### Must Have
 
