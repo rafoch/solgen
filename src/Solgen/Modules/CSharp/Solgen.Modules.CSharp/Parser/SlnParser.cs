@@ -29,12 +29,15 @@ public class SlnParser : IParser
         var solutionDepth = solution.Depth;
 
         var findCloseToken = tokens
-            .First(x => x.Depth == solutionDepth &&
-                        x.Token.Value == CloseSectionToken.Value &&
-                        x.Token.Type == CloseSectionToken.Type);
+            .First(x => 
+                x.Depth == solutionDepth &&
+                x.Token.Value == CloseSectionToken.Value &&
+                x.Token.Type == CloseSectionToken.Type);
 
         var tokensToParse = tokens
-            .Where(x => x.TokenIndex >= solution.TokenIndex && x.TokenIndex <= findCloseToken.TokenIndex)
+            .Where(x => 
+                x.TokenIndex >= solution.TokenIndex &&
+                x.TokenIndex <= findCloseToken.TokenIndex)
             .ToList();
         
         

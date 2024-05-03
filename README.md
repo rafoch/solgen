@@ -123,7 +123,7 @@ In first implementation where will be only C# Code supported
 
 #### Linter 
 
-There is some linter description
+
 
 ### Core
 Provides a whole services to do the job
