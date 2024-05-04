@@ -86,7 +86,7 @@ sln SolutionName {
 ```
 
 The above structure will provide the full .NET solution with corresponding structure as shown below
-
+<br/>
 expected response should be: 
 
 ```
@@ -111,13 +111,15 @@ The documentation section that provides information about core functionalities o
 #### Tokenizer
 
 Tokenizer is a mechanism that gets your input and then translate it to a list of words/symbols are contained in the input. 
-
+ <br/>
 
 **Important** : The tokens that are returned are the only one that are specified in code, ie. you need to define a token type to get this in return 
 
 #### Parser
 
 Translates the provided **Tokens** into proper language code structure according to language choose. 
+
+<br/> 
 
 In first implementation where will be only C# Code supported
 
@@ -137,7 +139,7 @@ Module that provides needed members of parsing and preparing solution to be gene
 
 ###### SLNX 
 The new format is constructed via XML file that contains tree structure of an solution folders and exacutable projects
-
+<br/>
 The main benefits is that theres no need to provide/save/store an "unique" Solution item type id represented as a guid into a file. All is resolved via csproj or element basis.
 
 ##### Rust Module
