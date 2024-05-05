@@ -1,5 +1,4 @@
 # SOLGEN
-<!-- LINKS -->
 ![plot](./logo_192.png)
 ---
 Are you a Tech Lead or Software Architect just like me in **small** or **medium** company? 
