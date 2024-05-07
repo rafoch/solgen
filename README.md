@@ -20,7 +20,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Writing project structure by diagram as code approach - 50% - remaining part is to structurize the respons of the tokens via lexer
 - [ ] Downloading/Exporting diagram to .NET Solution structure or/and Rust project
 - [ ] Generating UI Diagrams to visualize diagram state - only in basic shape
-- [x] Docker installation
+- [-] Docker installation
 - [] Site with code editor - **only in basic mode**
 - [] Generic code for further languages implementation
 
