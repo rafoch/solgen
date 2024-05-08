@@ -21,7 +21,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Downloading/Exporting diagram to .NET Solution structure or/and Rust project
 - [ ] Generating UI Diagrams to visualize diagram state - only in basic shape
 - [-] Docker installation
-- [] Site with code editor - **only in basic mode**
+- [x] Site with code editor - **only in basic mode**
 - [] Generic code for further languages implementation
 
 ### Nice to have
