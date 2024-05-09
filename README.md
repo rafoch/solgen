@@ -22,7 +22,7 @@ Open source tool for creating, building and store project structure via diagrams
 - [ ] Generating UI Diagrams to visualize diagram state - only in basic shape
 - [-] Docker installation
 - [x] Site with code editor - **only in basic mode**
-- [] Generic code for further languages implementation
+- [x] Generic code for further languages implementation
 
 ### Nice to have
 - [ ] Preparing for new slnx format of c# solution - the new xml format - check for documentation
